@@ -1,5 +1,5 @@
 # RSA-Algorithm
-Key Generation
+#Key Generation
   1)	Use Miller-Rabin algorithm to choose two large primes, p and q.
   2)	Calculate n = pq
   3)	Calculate Φ(n) = (p – 1)(q – 1)
@@ -9,9 +9,9 @@ Key Generation
       //multiplicative inverse of  e under modulo Φ(n)
   6)	Public key PU = {e, n}
   7)	Private key PR = {d, n}
-Encryption
+#Encryption
   1)	Plaintext: M < n
   2)	Ciphertext: C= M^e mod n
-Decryption
+#Decryption
   1)	Ciphertext: C
   2)	Plaintext:  M= C^d mod n
